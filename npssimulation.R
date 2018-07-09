@@ -1,4 +1,6 @@
-##NPS Simulation
+#-----NPS Simulation-----
+#Authored by Ian Frantz (www.ianfrantz.com)
+#GPL License
 
 outcomes = c(1:3)
 nps <- c()    
@@ -17,3 +19,4 @@ for (i in 1:3)
 mean(nps)
 npsdistribution <- density(nps)
 plot (npsdistribution)
+
