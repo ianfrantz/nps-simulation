@@ -4,13 +4,13 @@
 
 The following simulator breaks NPS down into it's essential three outcome elements and their assigned random probabilties based on a 10 point scale. No additional R libraries are required.
 
-* The default configuration
+### The default configuration
 
 + NPS Survey Sampling Distribution: 50
 + NPS Sample Score: x
 + Sample Mean of 3 samples: nps
 
-* Default Scale Settings:
+### Default Scale Settings:
 
 + Detractor Probability: 60%
 + Passive Probability: 20%
