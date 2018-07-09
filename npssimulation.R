@@ -3,9 +3,9 @@
 outcomes = c(1:3)
 nps <- c()    
 x <- c()
-for (i in 1:5000) 
+for (i in 1:3) 
   {
-  npssimulation <- sample(outcomes, size = 100, replace = TRUE, prob = c(.60,.20,.20))
+  npssimulation <- sample(outcomes, size = 50, replace = TRUE, prob = c(.60,.20,.20))
     detractor <- subset(npssimulation, npssimulation == 1)
     passive <- subset (npssimulation, npssimulation == 2)
     promoter <- subset(npssimulation, npssimulation == 3)
